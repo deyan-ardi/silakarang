@@ -113,24 +113,24 @@
             <div class="row">
                 <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column align-items-lg-center">
                     <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
-                        <i class="bx bx-receipt"></i>
-                        <h4>Est labore ad</h4>
-                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                        <i class="bx bx-devices"></i>
+                        <h4>Memudahkan Akses</h4>
+                        <p>Peserta dapat mengakses kegiatan pameran dari manapun dan dengan menggunakan perangkat apapun</p>
                     </div>
                     <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
-                        <i class="bx bx-cube-alt"></i>
-                        <h4>Harum esse qui</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                        <i class="bx bx-money"></i>
+                        <h4>Hemat Biaya</h4>
+                        <p>Melakukan konferensi secara daring dengan efektif sehingga menghematkan biaya dibandingkan secara konvensional</p>
                     </div>
                     <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
-                        <i class="bx bx-images"></i>
-                        <h4>Aut occaecati</h4>
-                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                        <i class="bx bx-globe"></i>
+                        <h4>Meluaskan Jangkauan</h4>
+                        <p>Memberikan jangkauan tak terbatas bagi peserta tanpa harus menghadiri arena pameran</p>
                     </div>
                     <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
-                        <i class="bx bx-shield"></i>
-                        <h4>Beatae veritatis</h4>
-                        <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                        <i class="bx bx-git-merge"></i>
+                        <h4>Memberikan Alternatif</h4>
+                        <p>Memungkinkan narasumber untuk memberikan paparan tanpa harus tatap muka</p>
                     </div>
                 </div>
                 <div class="image col-lg-6 order-1 order-lg-2 " data-aos="zoom-in" data-aos-delay="100">
