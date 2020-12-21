@@ -113,24 +113,24 @@
             <div class="row">
                 <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column align-items-lg-center">
                     <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
-                        <i class="bx bx-receipt"></i>
-                        <h4>Est labore ad</h4>
-                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                        <i class="bx bx-devices"></i>
+                        <h4>Memudahkan Akses</h4>
+                        <p>Peserta dapat mengakses kegiatan pameran dari manapun dan dengan menggunakan perangkat apapun</p>
                     </div>
                     <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
-                        <i class="bx bx-cube-alt"></i>
-                        <h4>Harum esse qui</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                        <i class="bx bx-money"></i>
+                        <h4>Hemat Biaya</h4>
+                        <p>Melakukan konferensi secara daring dengan efektif sehingga menghematkan biaya dibandingkan secara konvensional</p>
                     </div>
                     <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
-                        <i class="bx bx-images"></i>
-                        <h4>Aut occaecati</h4>
-                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                        <i class="bx bx-globe"></i>
+                        <h4>Meluaskan Jangkauan</h4>
+                        <p>Memberikan jangkauan tak terbatas bagi peserta tanpa harus menghadiri arena pameran</p>
                     </div>
                     <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
-                        <i class="bx bx-shield"></i>
-                        <h4>Beatae veritatis</h4>
-                        <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                        <i class="bx bx-git-merge"></i>
+                        <h4>Memberikan Alternatif</h4>
+                        <p>Memungkinkan narasumber untuk memberikan paparan tanpa harus tatap muka</p>
                     </div>
                 </div>
                 <div class="image col-lg-6 order-1 order-lg-2 " data-aos="zoom-in" data-aos-delay="100">
@@ -424,7 +424,7 @@
                     <div class="info-box mb-4">
                         <i class="bx bx-map"></i>
                         <h3>Alamat Kami</h3>
-                        <p>A108 Adam Street, New York, NY 535022</p>
+                        <p>Jl. Udayana No.11, Banjar Tegal, Singaraja, Kabupaten Buleleng, Bali 81116</p>
                     </div>
                 </div>
 
@@ -432,7 +432,7 @@
                     <div class="info-box  mb-4">
                         <i class="bx bx-envelope"></i>
                         <h3>Email Kami</h3>
-                        <p>contact@example.com</p>
+                        <p>informasi@epameran.com</p>
                     </div>
                 </div>
 
@@ -440,7 +440,7 @@
                     <div class="info-box  mb-4">
                         <i class="bx bx-phone-call"></i>
                         <h3>Telepon</h3>
-                        <p>+1 5589 55488 55</p>
+                        <p>+62 819 1565 6865</p>
                     </div>
                 </div>
 
@@ -450,7 +450,7 @@
 
                 <div class="col-lg-6 ">
                     <iframe class="mb-4 mb-lg-0"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15799.331134674678!2d115.09631044019775!3d-8.118502103420415!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1abe2912c8d6af5a!2sUniversitas%20Pendidikan%20Ganesha!5e0!3m2!1sid!2sid!4v1608482648461!5m2!1sid!2sid"
                         frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
                 </div>
 
@@ -458,24 +458,24 @@
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="form-row">
                             <div class="col-md-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Nama Anda"
+                                    data-rule="minlen:4" data-msg="Tolong masukkan nama anda" />
                                 <div class="validate"></div>
                             </div>
                             <div class="col-md-6 form-group">
                                 <input type="email" class="form-control" name="email" id="email"
-                                    placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                    placeholder="Email Anda" data-rule="email" data-msg="Tolong masukkan email anda" />
                                 <div class="validate"></div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subjek"
+                                data-rule="minlen:4" data-msg="Tolong menulis subjek lebih dari 3 karakter" />
                             <div class="validate"></div>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required"
-                                data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <textarea class="form-control" name="Pesan" rows="5" data-rule="required"
+                                data-msg="Tolong masukkan pesan yang ingin disampaikan" placeholder="Message"></textarea>
                             <div class="validate"></div>
                         </div>
                         <div class="mb-3">
