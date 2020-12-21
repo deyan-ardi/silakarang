@@ -4,7 +4,7 @@
 
         <div class="row justify-content-center">
             <div class="col-xl-9 d-flex align-items-center">
-                <h1 class="logo mr-auto"><a href="<?= base_url() ?>">E-Pameran</a></h1>
+                <h1 class="logo mr-auto"><a href="<?= base_url() ?>">Rumah Inovasi Karyasa</a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -29,7 +29,7 @@
                 <h2>Artha Dharma</h2>
                 <ol>
                     <li><a href="<?= base_url() ?>">Home</a></li>
-                    <li>Proses Pembuatan</li>
+                    <li>Dokumentasi Pembuatan</li>
                 </ol>
             </div>
 
@@ -44,7 +44,7 @@
 
                 <div class="owl-carousel portfolio-details-carousel">
                     <video width="100%" controls>
-                        <source src="<?= base_url() ?>assets/img/video/pembuatan.mp4" type="video/mp4">
+                        <source src="<?= base_url() ?>assets/img/video/produksi_produk_tenun.mp4" type="video/mp4">
                     </video>
                 </div>
 
@@ -61,16 +61,10 @@
             </div>
 
             <div class="portfolio-description text-justify">
-                <h2>Pertenunan Artha Dharma</h2>
+                <h2>Proses Pembuatan</h2>
                 <p>
-                    Pertenunan Artha Dharma merupakan salah satu usaha pertenunan khas buleleng dan menjadi andalan dan
-                    unggulan kabupaten buleleng dalam industri kreatif. Usaha Pertenunan Artha Dharma berdiri pada tahun
-                    2002 dengan tujuan selain menambah lapangan pekerjaan bagi masyarakat di Desa Sinabun juga bertujuan
-                    melestarikan budaya menenun yang ada di Desa Sinabun hal ini dikarenakan animo masyarakat untuk
-                    terjun menjadi penenun kian menurun. Berbagai penghargaan telah diraih oleh bapak Ketut Rajin
-                    (pemilik dan pemimpin perusahaan Pertenunan Artha Dharma) diantaranya adalah Juara 1 kategori desain
-                    tenun ATBM (alat tenun bukan mesin) pada ajang lomba tenun dan songket (21-23 Juni 2017) serangkaian
-                    PKB ke-39 di Taman Budaya Denpasar
+                    Awal proses pembuatan dari produk tenun adalah para pengerajin memproduksi sendiri benang sutera terlebih dahulu dengan bekerja sama para peternak ulat sutera untuk menghasilkan kempompong yang selanjutnya diolah menjadi serat sutera dan berkat dengan teknologi pemintalan serat sutra yang terpadu dengan doubling dan twisting sehingga menghasilkan benang sutra alam sesuai standar untuk industri tenun. <br> <br> Selanjutnya, benang sutra alam tersebut diberikan pencelupan warna alam yang  diperoleh
+dari air rebusan bagian-bagian tanaman berwarna seperti kunyit, kulit manggis, kulit akar mengkudu, daun mangga, dan kayu suren, menggunakan fiksator nanopasta anorganik untuk penguat warna, dan pencucian. Teknik pencelupan menggunakan proses oksidasi secara elektrokimia, pengendapan dan pengenceran. <br> <br> Dengan bahan utama telah diciptakan, maka para pengrajin memulai melakukan teknik tenun dalam pembuatan kain dengan adanya bantuan dari alat tenun semi mesin dan alat tenun mesin, sehingga bisa menghasilkan produk tenun yang berkualitas dan terbagus.
                 </p>
             </div>
 
