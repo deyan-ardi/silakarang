@@ -68,9 +68,18 @@
             </div>
 
             <div class="portfolio-description text-justify">
-                <h2>Dokumentasi Kegiatan</h2>
+                <h2>Dokumentasi Pembuatan</h2>
                 <p>
-                    Beberapa kegiatan yang sering kami lakukan
+                    Seni kerajinan batu padas (cadas) Silakarang sudah berlangsung sejak tahun 1832 saat dibangunnya
+                    Pura Puseh Desa Adat Silakarang (Berata, 2008). Perkembangan kerajinan cadas Silakarang mengalami
+                    perkembangan berawal dari kepentingan keagamaan seperti mengukir pura dan tempat suci rumah hunian
+                    Bali hingga menjadi produk komersial dan selanjutnya bersentuhan dengan kebudayaan luar seiring
+                    perkembangan pariwisata Bali. Hasil penelitian Berata (2008), menunjukkan bahwa telah terjadi
+                    perkembangan yang signifikan fungsi dan gaya kerajinan cadas Silakarang, dimana dari segi fungsi,
+                    kerajinan cadas Silakarang memiliki fungsi-fungsi dalam masyarakat pendukungnya maupun masyarakat
+                    luas seprti fungsi fisik, personal dan sosial, sedangkan dari segi gaya, kerjinan cadas Silakarang
+                    berkembang dari gaya tradisional ke gaya modern yang berimplikasi pada pengayaan materi seni ukir
+                    cadas Silakarang denfgan dihasilkannya produk-produk kerajian dengan desain-desain baru.
                 </p>
             </div>
 
@@ -78,33 +87,3 @@
     </section><!-- End Portfolio Details Section -->
 
 </main><!-- End #main -->
-
-<!-- ======= Footer ======= -->
-<footer id="footer">
-
-    <div class="container">
-
-        <div class="copyright-wrap d-md-flex py-4">
-            <div class="mr-md-auto text-center text-md-left">
-                <div class="copyright">
-                    &copy; Copyright <strong><span>Techie</span></strong>. All Rights Reserved
-                </div>
-                <div class="credits">
-                    <!-- All the links in the footer should remain intact. -->
-                    <!-- You can delete the links only if you purchased the pro version. -->
-                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
-                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                </div>
-            </div>
-            <div class="social-links text-center text-md-right pt-3 pt-md-0">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-        </div>
-
-    </div>
-</footer><!-- End Footer -->

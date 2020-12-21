@@ -51,30 +51,56 @@ class P extends CI_Controller {
 			$this->load->view('templates/footer', $data);
 		}
 	}
-	public function usaha(){
+	public function usaha($id = '')
+	{
 		$data['title'] = "Daftar Kategori Pameran";
 		$this->load->view('templates/header', $data);
-		$this->load->view('user/daftar-pameran', $data);
+		if ($id == "tenun") {
+			$this->load->view('user/arthadharma/daftar-pameran', $data);
+		} else if ($id == "silakarang") {
+			$this->load->view('user/silakarang/daftar-pameran', $data);
+		} else {
+			redirect('p');
+		}
 		$this->load->view('templates/footer', $data);
 	}
-	public function produk()
+	public function produk($id = '')
 	{
 		$data['title'] = "Produk";
 		$this->load->view('templates/header', $data);
-		$this->load->view('user/pameran', $data);
+		if ($id == "tenun") {
+			$this->load->view('user/arthadharma/pameran', $data);
+		} else if ($id == "silakarang") {
+			$this->load->view('user/silakarang/pameran', $data);
+		} else {
+			redirect('p');
+		}
 		$this->load->view('templates/footer', $data);
 	}
-	public function proses_pembuatan(){
+	public function proses_pembuatan($id = '')
+	{
 		$data['title'] = "Proses Pembuatan";
 		$this->load->view('templates/header', $data);
-		$this->load->view('user/proses_pembuatan', $data);
+		if ($id == "tenun") {
+			$this->load->view('user/arthadharma/proses_pembuatan', $data);
+		} else if ($id == "silakarang") {
+			$this->load->view('user/silakarang/proses_pembuatan', $data);
+		} else {
+			redirect('p');
+		}
 		$this->load->view('templates/footer', $data);
 	}
-	public function dokumentasi()
+	public function dokumentasi($id = '')
 	{
 		$data['title'] = "Dokumentasi Lain";
 		$this->load->view('templates/header', $data);
-		$this->load->view('user/dokumentasi', $data);
+		if ($id == "tenun") {
+			$this->load->view('user/arthadharma/dokumentasi', $data);
+		} else if ($id == "silakarang") {
+			$this->load->view('user/silakarang/dokumentasi', $data);
+		} else {
+			redirect('p');
+		}
 		$this->load->view('templates/footer', $data);
 	}
 

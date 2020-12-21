@@ -29,7 +29,7 @@
                 <h2>Silakarang</h2>
                 <ol>
                     <li><a href="<?= base_url() ?>">Home</a></li>
-                    <li>Produk Silakarang</li>
+                    <li>Proses Pembuatan</li>
                 </ol>
             </div>
 
@@ -43,23 +43,15 @@
             <div class="portfolio-details-container">
 
                 <div class="owl-carousel portfolio-details-carousel">
-                    <img src="<?= base_url() ?>assets/img/produk/1.jpeg" class="img-fluid" alt="">
-                    <img src="<?= base_url() ?>assets/img/produk/2.jpeg" class="img-fluid" alt="">
-                    <img src="<?= base_url() ?>assets/img/produk/3.jpeg" class="img-fluid" alt="">
-                    <img src="<?= base_url() ?>assets/img/produk/4.jpeg" class="img-fluid" alt="">
-                    <img src="<?= base_url() ?>assets/img/produk/6.jpeg" class="img-fluid" alt="">
-                    <img src="<?= base_url() ?>assets/img/produk/8.jpeg" class="img-fluid" alt="">
-                    <img src="<?= base_url() ?>assets/img/produk/12.jpeg" class="img-fluid" alt="">
-                    <img src="<?= base_url() ?>assets/img/produk/13.jpeg" class="img-fluid" alt="">
-                    <img src="<?= base_url() ?>assets/img/produk/14.jpeg" class="img-fluid" alt="">
-                    <img src="<?= base_url() ?>assets/img/produk/15.jpeg" class="img-fluid" alt="">
-                    <img src="<?= base_url() ?>assets/img/produk/16.jpeg" class="img-fluid" alt="">
+                    <video width="100%" controls>
+                        <source src="<?= base_url() ?>assets/img/video/pembuatan.mp4" type="video/mp4">
+                    </video>
                 </div>
 
                 <div class="portfolio-info">
-                    <h3>Informasi Produk</h3>
+                    <h3>Informasi Dokumentasi</h3>
                     <ul>
-                        <li><strong>Kategori</strong>: Ukiran</li>
+                        <li><strong>Kagiatan</strong>: Mengukir, Pembuatan Patung, Pembuatan Karya</li>
                         <li><strong>Bahan</strong>: Batu Cadas</li>
                         <li><strong>Lama Pembuatan</strong>: 1 Minggu</li>
                         <li><strong>Link Pembelian</strong>: <a
@@ -70,7 +62,7 @@
             </div>
 
             <div class="portfolio-description text-justify">
-                <h2>Ukiran Batu Cadas</h2>
+                <h2>Dokumentasi Pembuatan</h2>
                 <p>
                     Seni kerajinan batu padas (cadas) Silakarang sudah berlangsung sejak tahun 1832 saat dibangunnya
                     Pura Puseh Desa Adat Silakarang (Berata, 2008). Perkembangan kerajinan cadas Silakarang mengalami
@@ -90,32 +82,4 @@
 
 </main><!-- End #main -->
 
-<!-- ======= Footer ======= -->
-<footer id="footer">
-
-    <div class="container">
-
-        <div class="copyright-wrap d-md-flex py-4">
-            <div class="mr-md-auto text-center text-md-left">
-                <div class="copyright">
-                    &copy; Copyright <strong><span>Techie</span></strong>. All Rights Reserved
-                </div>
-                <div class="credits">
-                    <!-- All the links in the footer should remain intact. -->
-                    <!-- You can delete the links only if you purchased the pro version. -->
-                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
-                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                </div>
-            </div>
-            <div class="social-links text-center text-md-right pt-3 pt-md-0">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-        </div>
-
-    </div>
-</footer><!-- End Footer -->
+<

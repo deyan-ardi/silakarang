@@ -6,7 +6,7 @@
 
           <div class="row justify-content-center">
               <div class="col-xl-9 d-flex align-items-center">
-                  <h1 class="logo mr-auto"><a href="index.html">E-Pameran</a></h1>
+                  <h1 class="logo mr-auto"><a href="index.html">Rumah Inovasi Karyasa</a></h1>
                   <!-- Uncomment below if you prefer to use an image logo -->
                   <!-- <a href="index.html" class="logo mr-auto"><img src="<?= base_url() ?>assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -58,7 +58,8 @@
                   <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
                       <h3>Mengapa harus kami?</h3>
                       <p class="text-justify">
-                          E-Pameran merupakan sebuah media berbasis Website yang dapat digunakan oleh seniman dan
+                          Rumah Inovasi Karyasa merupakan sebuah media berbasis Website yang dapat digunakan oleh
+                          seniman dan
                           pecinta
                           seni untuk bersama-sama menikmati indahnya suatu karya melalui pameran tanpa harus berkunjung
                           secara langsung. Kami memfasilitasi penikmat seni untuk dapat melalukan tour virtual pada
@@ -110,7 +111,7 @@
 
               <div class="section-title">
                   <h2>Tujuan</h2>
-                  <p>E-Pameran Memiliki Beberapa Tujuan, diantaranya</p>
+                  <p>Rumah Inovasi Karyasa Memiliki Beberapa Tujuan, diantaranya</p>
               </div>
 
               <div class="row">
@@ -167,11 +168,27 @@
                               </svg>
                               <i class="bx bxl-dribbble"></i>
                           </div>
-                          <h4><a href="<?= base_url() ?>p/usaha">Silakarang</a></h4>
+                          <h4><a href="<?= base_url() ?>p/usaha/silakarang">Silakarang</a></h4>
                           <p>Pameran ukiran hasil karya dengan batu cadas</p>
                       </div>
                   </div>
+                  <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                      <div class="icon-box iconbox-yellow">
+                          <div class="icon">
+                              <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                                      d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174">
+                                  </path>
+                              </svg>
+                              <i class='bx bxl-spring-boot'></i>
+
+                          </div>
+                          <h4><a href="<?= base_url() ?>p/usaha/tenun">Pertenunan Artha Dharma</a></h4>
+                          <p>Pameran hasil tenun Artha Dharma</p>
+                      </div>
+                  </div>
               </div>
+
       </section><!-- End Services Section -->
 
       <!-- ======= Portfolio Section ======= -->
@@ -180,7 +197,7 @@
 
               <div class="section-title">
                   <h2>Galeri</h2>
-                  <p>Beberapa kegiatan e-pameran yang sudah terlaksana</p>
+                  <p>Beberapa kegiatan Rumah Inovasi Karyasa yang sudah terlaksana</p>
               </div>
 
               <div class="row">
@@ -416,28 +433,3 @@
       </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-      <div class="container">
-
-          <div class="copyright-wrap d-md-flex py-4">
-              <div class="mr-md-auto text-center text-md-left">
-                  <div class="copyright">
-                      &copy; Copyright <strong><span>Techie</span></strong>. All Rights Reserved
-                  </div>
-                  <div class="credits">
-                      <!-- All the links in the footer should remain intact. -->
-                      <!-- You can delete the links only if you purchased the pro version. -->
-                      <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
-                      Designed by <a href="https://bootstrapmade.com/">BootstrapMade || Modified by E-Pameran</a>
-                  </div>
-              </div>
-              <div class="social-links text-center text-md-right pt-3 pt-md-0">
-                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              </div>
-          </div>
-
-      </div>
-  </footer><!-- End Footer -->
