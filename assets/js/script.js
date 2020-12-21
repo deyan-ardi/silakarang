@@ -218,3 +218,28 @@
   });
 
 })(jQuery);
+$(document).ready(function () {
+  const success = $('.berhasil').data('berhasil');
+  if (success) {
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      text: 'Berhasil, ' + success + '...',
+      showConfirmButton: false,
+      timer: 3000
+    })
+  }
+});
+
+$(document).ready(function () {
+  const gagal = $('.gagal').data('gagal');
+  if (gagal) {
+    Swal.fire({
+      position: 'center',
+      icon: 'error',
+      text: 'Opss.. Gagal, ' + gagal + '...',
+      showConfirmButton: false,
+      timer: 3000
+    })
+  }
+});

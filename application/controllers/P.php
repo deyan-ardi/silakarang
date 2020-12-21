@@ -3,27 +3,53 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class P extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
+
+	public function __construct()
+	{
+		parent::__construct();
+	}
+
 	public function index()
 	{
 		$data['title'] = "Beranda";
-		$this->load->view('templates/header',$data);
-		$this->load->view('user/index', $data);
-		$this->load->view('templates/footer', $data);
+		if (isset($_POST['submit'])) {
+			var_dump($_POST);
+			$config = [
+				'mailtype'  => 'html',
+				'charset'   => 'utf-8',
+				'protocol'  => 'smtp',
+				'smtp_host' => 'ssl://smtp.gmail.com',
+				'smtp_user' => 'riyan.clsg11@gmail.com',    // Ganti dengan email gmail anda
+				'smtp_pass' => '-$Clsg13$-',      // Ganti dengan Password gmail anda
+				'smtp_port' => '465',
+				'crlf'      => "\r\n",
+				'newline'   => "\r\n"
+			];
+			$this->load->library('email', $config);
+			$this->email->initialize($config);
+			$this->email->set_newline("\r\n");
+			$name = $_POST['name'];
+			$email = $_POST['email'];
+			$subject = $_POST['subject'];
+			$message = $_POST['message'];
+			$to_email = ['riyan.clsg11@gmail.com', 'riyan@undiksha.ac.id'];
+			$this->email->from($email, 'Pesan dari ' . $name);
+			$this->email->to($to_email);
+			$this->email->subject($subject);
+			$this->email->message($message);
+			// send mail
+			if ($this->email->send()) {
+				$this->session->set_flashdata('berhasil', 'Email sukses dikirim');
+				redirect('p');
+			} else {
+				$this->session->set_flashdata('gagal', 'Email gagal dikirim');
+				redirect('p');
+			}
+		} else {
+			$this->load->view('templates/header', $data);
+			$this->load->view('user/index', $data);
+			$this->load->view('templates/footer', $data);
+		}
 	}
 	public function usaha(){
 		$data['title'] = "Daftar Kategori Pameran";
@@ -51,4 +77,5 @@ class P extends CI_Controller {
 		$this->load->view('user/dokumentasi', $data);
 		$this->load->view('templates/footer', $data);
 	}
+
 }

@@ -28,8 +28,8 @@
             <div class="d-flex justify-content-between align-items-center">
                 <h2>Silakarang</h2>
                 <ol>
-                    <li><a href="index.html">Home</a></li>
-                    <li>Produk Silakarang</li>
+                    <li><a href="<?= base_url() ?>">Home</a></li>
+                    <li>Proses Pembuatan</li>
                 </ol>
             </div>
 
@@ -43,28 +43,37 @@
             <div class="portfolio-details-container">
 
                 <div class="owl-carousel portfolio-details-carousel">
-                    <img src="<?= base_url() ?>assets/img/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="">
+                    <video width="100%" controls>
+                        <source src="<?= base_url() ?>assets/img/video/pembuatan.mp4" type="video/mp4">
+                    </video>
                 </div>
 
                 <div class="portfolio-info">
-                    <h3>Project information</h3>
+                    <h3>Informasi Dokumentasi</h3>
                     <ul>
-                        <li><strong>Category</strong>: Web design</li>
-                        <li><strong>Client</strong>: ASU Company</li>
-                        <li><strong>Project date</strong>: 01 March, 2020</li>
-                        <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                        <li><strong>Kagiatan</strong>: Mengukir, Pembuatan Patung, Pembuatan Karya</li>
+                        <li><strong>Bahan</strong>: Batu Cadas</li>
+                        <li><strong>Lama Pembuatan</strong>: 1 Minggu</li>
+                        <li><strong>Link Pembelian</strong>: <a
+                                href="shop.silakarangcadasart.com/">shop.silakarangcadasart.com/</a></li>
                     </ul>
                 </div>
 
             </div>
 
-            <div class="portfolio-description">
-                <h2>This is an example of portfolio detail</h2>
+            <div class="portfolio-description text-justify">
+                <h2>Dokumentasi Pembuatan</h2>
                 <p>
-                    Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia
-                    quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim.
-                    Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla
-                    at esse enim cum deserunt eius.
+                    Seni kerajinan batu padas (cadas) Silakarang sudah berlangsung sejak tahun 1832 saat dibangunnya
+                    Pura Puseh Desa Adat Silakarang (Berata, 2008). Perkembangan kerajinan cadas Silakarang mengalami
+                    perkembangan berawal dari kepentingan keagamaan seperti mengukir pura dan tempat suci rumah hunian
+                    Bali hingga menjadi produk komersial dan selanjutnya bersentuhan dengan kebudayaan luar seiring
+                    perkembangan pariwisata Bali. Hasil penelitian Berata (2008), menunjukkan bahwa telah terjadi
+                    perkembangan yang signifikan fungsi dan gaya kerajinan cadas Silakarang, dimana dari segi fungsi,
+                    kerajinan cadas Silakarang memiliki fungsi-fungsi dalam masyarakat pendukungnya maupun masyarakat
+                    luas seprti fungsi fisik, personal dan sosial, sedangkan dari segi gaya, kerjinan cadas Silakarang
+                    berkembang dari gaya tradisional ke gaya modern yang berimplikasi pada pengayaan materi seni ukir
+                    cadas Silakarang denfgan dihasilkannya produk-produk kerajian dengan desain-desain baru.
                 </p>
             </div>
 

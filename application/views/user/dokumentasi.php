@@ -4,7 +4,7 @@
 
         <div class="row justify-content-center">
             <div class="col-xl-9 d-flex align-items-center">
-                <h1 class="logo mr-auto"><a href="<?=base_url()?>">E-Pameran</a></h1>
+                <h1 class="logo mr-auto"><a href="<?= base_url() ?>">E-Pameran</a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -28,8 +28,8 @@
             <div class="d-flex justify-content-between align-items-center">
                 <h2>Silakarang</h2>
                 <ol>
-                    <li><a href="index.html">Home</a></li>
-                    <li>Produk Silakarang</li>
+                    <li><a href="<?= base_url() ?>">Home</a></li>
+                    <li>Dokumentasi Lain</li>
                 </ol>
             </div>
 
@@ -43,28 +43,34 @@
             <div class="portfolio-details-container">
 
                 <div class="owl-carousel portfolio-details-carousel">
-                    <img src="<?= base_url() ?>assets/img/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="">
+                    <video width="100%" controls>
+                        <source src="<?= base_url() ?>assets/img/video/pembuatan.mp4" type="video/mp4">
+                    </video>
+                    <video width="100%" controls>
+                        <source src="<?= base_url() ?>assets/img/video/pembuatan-2.mp4" type="video/mp4">
+                    </video>
+                    <video width="100%" controls>
+                        <source src="<?= base_url() ?>assets/img/video/pembuatan-3.mp4" type="video/mp4">
+                    </video>
                 </div>
 
                 <div class="portfolio-info">
-                    <h3>Project information</h3>
+                    <h3>Informasi Dokumentasi</h3>
                     <ul>
-                        <li><strong>Category</strong>: Web design</li>
-                        <li><strong>Client</strong>: ASU Company</li>
-                        <li><strong>Project date</strong>: 01 March, 2020</li>
-                        <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                        <li><strong>Kagiatan</strong>: Mengukir, Pembuatan Patung, Pembuatan Karya</li>
+                        <li><strong>Bahan</strong>: Batu Cadas</li>
+                        <li><strong>Lama Pembuatan</strong>: 1 Minggu</li>
+                        <li><strong>Link Pembelian</strong>: <a
+                                href="shop.silakarangcadasart.com/">shop.silakarangcadasart.com/</a></li>
                     </ul>
                 </div>
 
             </div>
 
-            <div class="portfolio-description">
-                <h2>This is an example of portfolio detail</h2>
+            <div class="portfolio-description text-justify">
+                <h2>Dokumentasi Kegiatan</h2>
                 <p>
-                    Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia
-                    quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim.
-                    Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla
-                    at esse enim cum deserunt eius.
+                    Beberapa kegiatan yang sering kami lakukan
                 </p>
             </div>
 
