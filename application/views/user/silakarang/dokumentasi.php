@@ -51,6 +51,9 @@
                     <video width="100%" controls>
                         <source src="<?= base_url() ?>assets/img/video/pembuatan-3.mp4" type="video/mp4">
                     </video>
+                    <video width="100%" controls>
+                        <source src="<?= base_url() ?>assets/img/video/pameran-2.mp4" type="video/mp4">
+                    </video>
                 </div>
 
                 <div class="portfolio-info">

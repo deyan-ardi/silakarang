@@ -43,7 +43,10 @@
 
                 <div class="owl-carousel portfolio-details-carousel">
                     <video width="100%" controls>
-                        <source src="<?= base_url() ?>assets/img/video/pembuatan.mp4" type="video/mp4">
+                        <source src="<?= base_url() ?>assets/img/video/Nataloka Merged Fix.mp4" type="video/mp4">
+                    </video>
+                    <video width="100%" controls>
+                        <source src="<?= base_url() ?>assets/img/video/1.mp4" type="video/mp4">
                     </video>
                 </div>
 

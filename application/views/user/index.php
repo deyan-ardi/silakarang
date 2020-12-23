@@ -349,7 +349,7 @@
                       <div class="info-box mb-4">
                           <i class="bx bx-map"></i>
                           <h3>Alamat Kami</h3>
-                          <p>Jl. Udayana No.11, Banjar Tegal, Singaraja, Kabupaten Buleleng, Bali 81116</p>
+                          <p>Jln.Bisma Utara No.75x Singaraja, Buleleng, Bali 81117</p>
                       </div>
                   </div>
 
@@ -357,7 +357,7 @@
                       <div class="info-box  mb-4">
                           <i class="bx bx-envelope"></i>
                           <h3>Email Kami</h3>
-                          <p>informasi@epameran.com</p>
+                          <p>informasi@rumahinovasikaryasa.com</p>
                       </div>
                   </div>
 
@@ -365,7 +365,7 @@
                       <div class="info-box  mb-4">
                           <i class="bx bx-phone-call"></i>
                           <h3>Telepon</h3>
-                          <p>+62 819 1565 6865</p>
+                          <p>+62 878-6327-7224</p>
                       </div>
                   </div>
 
@@ -374,9 +374,10 @@
               <div class="row">
 
                   <div class="col-lg-6 ">
-                      <iframe class="mb-4 mb-lg-0"
-                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15799.331134674678!2d115.09631044019775!3d-8.118502103420415!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1abe2912c8d6af5a!2sUniversitas%20Pendidikan%20Ganesha!5e0!3m2!1sid!2sid!4v1608482648461!5m2!1sid!2sid"
-                          frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+                      <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.822489868887!2d115.08767895042139!3d-8.119548794126233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd19a769979eeb7%3A0xb44045aa7c6abb75!2sJl.%20Bisma%20No.75%2C%20Banjar%20Tegal%2C%20Kec.%20Buleleng%2C%20Kabupaten%20Buleleng%2C%20Bali%2081117!5e0!3m2!1sid!2sid!4v1608713048917!5m2!1sid!2sid"
+                          width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                          aria-hidden="false" tabindex="0"></iframe>
                   </div>
 
                   <div class="col-lg-6">
