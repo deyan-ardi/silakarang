@@ -28,7 +28,7 @@
 
     <!-- Template Main CSS File -->
     <link href="<?= base_url() ?>assets/dist/sweetalert2.css" rel="stylesheet">
-    <link href="<?= base_url() ?>assets/css/main.css" rel="stylesheet">
+    <link href="<?= base_url() ?>assets/css/style.css" rel="stylesheet">
 
 
 </head>

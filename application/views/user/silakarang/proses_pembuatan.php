@@ -4,9 +4,8 @@
 
         <div class="row justify-content-center">
             <div class="col-xl-9 d-flex align-items-center">
-                <h1 class="logo mr-auto"><a href="<?= base_url() ?>">Rumah Inovasi Karyasa</a></h1>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+                <a href="<?= base_url() ?>" class="logo mr-auto"><img src="<?= base_url() ?>assets/img/website_icon.png"
+                        alt="" class="img-fluid"></a>
 
                 <nav class="nav-menu d-none d-lg-block">
                     <ul>
@@ -64,7 +63,16 @@
             <div class="portfolio-description text-justify">
                 <h2>Proses Pembuatan</h2>
                 <p>
-                    Dalam membuat sebuah produk seni ukir, tentunya memperlukan sebuah bahan terlebih dahulu sehingga oleh karena itu para tukang ukir di Silakarang telah memilih sebuah bahan baku yang ramah lingkungan yang telah diterapkan dengan bantuan teknologi kimia maju khususnya material nonkomposit sehingga mudah memperoleh cadas buatan dari bahan yang mentah dan ramah lingkungan. Untuk meingkatkan kualitas dari cadas tiruan, maka dari Silakarang menambahkan bahan penguat nanokomposit silica-karbon dan pigmen anorganik alami tahan lumut (dari Batu Merah Tajun) dan termokromik (dari Batu Cadas Abasan) sehingga menghasilkan cadas tiruan yang berkualitas. Dengan bahan telah siap, maka para tukang ukir memulai proses pembuatan dengan menggunakan teknik moulding dan casting untuk membuat bahan cadas siap ukir, bahan cadas yang setengah jadi dan bahkan kerajinan cadas buatan yang sudah jadi.
+                    Dalam membuat sebuah produk seni ukir, tentunya memperlukan sebuah bahan terlebih dahulu sehingga
+                    oleh karena itu para tukang ukir di Silakarang telah memilih sebuah bahan baku yang ramah lingkungan
+                    yang telah diterapkan dengan bantuan teknologi kimia maju khususnya material nonkomposit sehingga
+                    mudah memperoleh cadas buatan dari bahan yang mentah dan ramah lingkungan. Untuk meingkatkan
+                    kualitas dari cadas tiruan, maka dari Silakarang menambahkan bahan penguat nanokomposit
+                    silica-karbon dan pigmen anorganik alami tahan lumut (dari Batu Merah Tajun) dan termokromik (dari
+                    Batu Cadas Abasan) sehingga menghasilkan cadas tiruan yang berkualitas. Dengan bahan telah siap,
+                    maka para tukang ukir memulai proses pembuatan dengan menggunakan teknik moulding dan casting untuk
+                    membuat bahan cadas siap ukir, bahan cadas yang setengah jadi dan bahkan kerajinan cadas buatan yang
+                    sudah jadi.
                 </p>
             </div>
 

@@ -53,7 +53,7 @@ class P extends CI_Controller {
 	}
 	public function usaha($id = '')
 	{
-		$data['title'] = "Daftar Kategori Pameran";
+		$data['title'] = "Daftar Kategori Pameran " . $id;
 		$this->load->view('templates/header', $data);
 		if ($id == "tenun") {
 			$this->load->view('user/arthadharma/daftar-pameran', $data);
@@ -66,7 +66,7 @@ class P extends CI_Controller {
 	}
 	public function produk($id = '')
 	{
-		$data['title'] = "Produk";
+		$data['title'] = "Produk " . $id;
 		$this->load->view('templates/header', $data);
 		if ($id == "tenun") {
 			$this->load->view('user/arthadharma/pameran', $data);
