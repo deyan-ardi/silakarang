@@ -4,7 +4,7 @@
 
         <div class="row justify-content-center">
             <div class="col-xl-9 d-flex align-items-center">
-                <h1 class="logo mr-auto"><a href="<?= base_url() ?>">E-Pameran</a></h1>
+                <h1 class="logo mr-auto"><a href="<?= base_url() ?>">Rumah Inovasi Karyasa</a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -56,8 +56,8 @@
                     <ul>
                         <li><strong>Kategori</strong>: Tenun, Kerajinan Tradisional</li>
                         <li><strong>Bahan</strong>: Songket, dll</li>
-                        <li><strong>Link Website</strong>: <a
-                                href="https://tenunarthadharma.com">https://tenunarthadharma.com</a></li>
+                        <li><strong>Link Pembelian</strong>: <a
+                                href="https://shopee.co.id/arthadharma11">https://shopee.co.id/arthadharma11</a></li>
                     </ul>
                 </div>
 

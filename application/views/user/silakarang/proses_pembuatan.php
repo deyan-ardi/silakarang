@@ -4,7 +4,7 @@
 
         <div class="row justify-content-center">
             <div class="col-xl-9 d-flex align-items-center">
-                <h1 class="logo mr-auto"><a href="<?= base_url() ?>">E-Pameran</a></h1>
+                <h1 class="logo mr-auto"><a href="<?= base_url() ?>">Rumah Inovasi Karyasa</a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -29,7 +29,7 @@
                 <h2>Silakarang</h2>
                 <ol>
                     <li><a href="<?= base_url() ?>">Home</a></li>
-                    <li>Proses Pembuatan</li>
+                    <li>Dokumentasi Pembuatan</li>
                 </ol>
             </div>
 
@@ -62,18 +62,9 @@
             </div>
 
             <div class="portfolio-description text-justify">
-                <h2>Dokumentasi Pembuatan</h2>
+                <h2>Proses Pembuatan</h2>
                 <p>
-                    Seni kerajinan batu padas (cadas) Silakarang sudah berlangsung sejak tahun 1832 saat dibangunnya
-                    Pura Puseh Desa Adat Silakarang (Berata, 2008). Perkembangan kerajinan cadas Silakarang mengalami
-                    perkembangan berawal dari kepentingan keagamaan seperti mengukir pura dan tempat suci rumah hunian
-                    Bali hingga menjadi produk komersial dan selanjutnya bersentuhan dengan kebudayaan luar seiring
-                    perkembangan pariwisata Bali. Hasil penelitian Berata (2008), menunjukkan bahwa telah terjadi
-                    perkembangan yang signifikan fungsi dan gaya kerajinan cadas Silakarang, dimana dari segi fungsi,
-                    kerajinan cadas Silakarang memiliki fungsi-fungsi dalam masyarakat pendukungnya maupun masyarakat
-                    luas seprti fungsi fisik, personal dan sosial, sedangkan dari segi gaya, kerjinan cadas Silakarang
-                    berkembang dari gaya tradisional ke gaya modern yang berimplikasi pada pengayaan materi seni ukir
-                    cadas Silakarang denfgan dihasilkannya produk-produk kerajian dengan desain-desain baru.
+                    Dalam membuat sebuah produk seni ukir, tentunya memperlukan sebuah bahan terlebih dahulu sehingga oleh karena itu para tukang ukir di Silakarang telah memilih sebuah bahan baku yang ramah lingkungan yang telah diterapkan dengan bantuan teknologi kimia maju khususnya material nonkomposit sehingga mudah memperoleh cadas buatan dari bahan yang mentah dan ramah lingkungan. Untuk meingkatkan kualitas dari cadas tiruan, maka dari Silakarang menambahkan bahan penguat nanokomposit silica-karbon dan pigmen anorganik alami tahan lumut (dari Batu Merah Tajun) dan termokromik (dari Batu Cadas Abasan) sehingga menghasilkan cadas tiruan yang berkualitas. Dengan bahan telah siap, maka para tukang ukir memulai proses pembuatan dengan menggunakan teknik moulding dan casting untuk membuat bahan cadas siap ukir, bahan cadas yang setengah jadi dan bahkan kerajinan cadas buatan yang sudah jadi.
                 </p>
             </div>
 
